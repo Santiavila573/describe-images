@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🖼️ VisionDescriber – AI-Powered Image Description Tool
 
-# Run and deploy your AI Studio app
+[![Responsive](https://img.shields.io/badge/responsive-mobile--first-green)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+[![Vanilla JS](https://img.shields.io/badge/tech-vanilla%20JS%20%2B%20CSS3-blue)](https://developer.mozilla.org/)
+[![Accessibility](https://img.shields.io/badge/a11y-WCAG%202.1%20AA-compliant)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
-This contains everything you need to run your app locally.
+**VisionDescriber** is a lightweight, responsive web application that lets users upload images and receive rich, natural-language descriptions using AI vision models. Built with performance, accessibility, and simplicity in mind—no frameworks required.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1k_O8Vlaws_o42kHbabli5ULPAfA2QNM9
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- 📱 **Fully responsive** – Works beautifully on mobile, tablet, and desktop (mobile-first design).
+- 🖼️ **Drag & drop + file picker** – Intuitive image upload with real-time preview.
+- 🤖 **AI-powered descriptions** – Integrates with vision APIs (OpenAI, Google Vision, or open-source models like BLIP).
+- 📋 **Copy to clipboard** – One-click copy of generated descriptions.
+- ⏳ **Loading states** – Clear feedback during AI processing.
+- 🛡️ **Robust error handling** – Graceful responses for invalid files, network issues, or API failures.
+- ♿ **Accessible UI** – Semantic HTML, ARIA labels, keyboard navigation, and sufficient color contrast.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3 (Flexbox, Grid, `rem`/`vh`/`vw` units), Vanilla JavaScript (ES6+)
+- **Styling**: Mobile-first responsive design with fluid layouts and comprehensive media queries
+- **AI Integration**: Modular API service (ready for OpenAI Vision, Google Cloud Vision, or local models)
+- **No build step** – Runs directly in the browser
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/vision-describer.git
+cd vision-describer
