@@ -1,0 +1,6 @@
+
+{
+  "name": "Descriptor de Imágenes con IA",
+  "description": "Una aplicación web intuitiva que utiliza IA para generar descripciones detalladas en lenguaje natural para cualquier imagen subida. Cuenta con una interfaz responsive de arrastrar y soltar, previsualización de imágenes en tiempo real y resultados fáciles de copiar.",
+  "requestFramePermissions": []
+}
